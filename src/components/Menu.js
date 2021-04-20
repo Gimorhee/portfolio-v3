@@ -13,7 +13,7 @@ export const Menu = () => {
       </div>
       <ul className="headers">
         <li>
-          <a href="#">
+          <a href="#testing">
             <span>01.</span>About
           </a>
         </li>

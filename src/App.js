@@ -1,6 +1,8 @@
 import "./styles/App.scss";
 import { Menu } from "./components/Menu";
 import { Front } from "./components/Front";
+import { InfoSidebar } from "./components/Sidebar/InfoSidebar";
+import { EmailSidebar } from "./components/Sidebar/EmailSidebar";
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
         <Front />
       </div>
       <Menu />
+      <InfoSidebar />
+      <EmailSidebar />
     </div>
   );
 }

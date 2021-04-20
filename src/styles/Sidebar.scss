@@ -1,0 +1,61 @@
+.InfoSidebar {
+  position: fixed;
+  left: 45px;
+  width: 45px;
+  bottom: 0;
+  height: 300px;
+
+  display: flex;
+  //   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  a {
+    i {
+      transition: 0.3s ease-in-out all;
+      color: #ccd6f6;
+      font-size: 22px;
+      margin: 11px;
+
+      &:hover {
+        color: #61d4b3;
+        transform: scale(1.25);
+      }
+    }
+  }
+
+  .line {
+    width: 1px;
+    height: 100%;
+    background: #ccd6f6;
+  }
+}
+
+.EmailSidebar {
+  position: fixed;
+  right: 45px;
+  bottom: 0;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .email {
+    writing-mode: vertical-rl;
+    color: #ccd6f6;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out all;
+
+    &:hover {
+      color: #61d4b3;
+    }
+  }
+
+  .line {
+    width: 1px;
+    height: 100%;
+    background: #ccd6f6;
+  }
+}
