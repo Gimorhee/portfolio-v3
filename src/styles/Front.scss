@@ -122,6 +122,20 @@
     transform-origin: 70% 70%;
     display: inline-block;
   }
+
+  @media only screen and (max-width: 400px) {
+    .intro {
+      font-size: 27px;
+    }
+
+    .content {
+      font-size: 23px;
+    }
+
+    .extra {
+      font-size: 23px;
+    }
+  }
 }
 
 @-webkit-keyframes opacity {

@@ -33,7 +33,7 @@ export const Menu = ({ showMobileMenu, setMobileMenu }) => {
           </a>
         </li>
       </ul>
-      <a href="https://resume.creddle.io/resume/2x8ao7cjdbn" className="resume" target="_blank">
+      <a href="https://resume.creddle.io/resume/2x8ao7cjdbn" className="resume" target="_blank" rel="noreferrer">
         RESUME
       </a>
 
@@ -67,7 +67,7 @@ export const Menu = ({ showMobileMenu, setMobileMenu }) => {
           </li>
         </ul>
 
-        <a href="https://resume.creddle.io/resume/2x8ao7cjdbn" className="mobileResume" target="_blank">
+        <a href="https://resume.creddle.io/resume/2x8ao7cjdbn" className="mobileResume" target="_blank" rel="noreferrer">
           RESUME
         </a>
       </div>

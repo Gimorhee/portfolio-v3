@@ -19,10 +19,18 @@ html {
     left: 50%;
     transform: translateX(-50%);
     top: 130px;
-    padding: 0 100px;
+    padding: 0 120px;
 
     @media only screen and (max-width: 767px) {
       padding: 0 50px;
     }
+
+    @media only screen and (max-width: 550px) {
+      padding: 0 25px;
+    }
+  }
+
+  .blurContents {
+    filter: blur(5px);
   }
 }

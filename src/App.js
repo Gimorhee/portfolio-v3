@@ -10,7 +10,7 @@ export const App = () => {
 
   return (
     <div className="App">
-      <div className="contents">
+      <div className={showMobileMenu ? "blurContents contents" : "contents"}>
         <Front />
       </div>
       <Menu showMobileMenu={showMobileMenu} setMobileMenu={setMobileMenu} />
