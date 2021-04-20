@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "../styles/Menu.scss";
 
-export const Menu = () => {
-  const [showMobileMenu, setMobileMenu] = useState(false);
+export const Menu = ({ showMobileMenu, setMobileMenu }) => {
+  //   const [showMobileMenu, setMobileMenu] = useState(false);
 
   return (
     <div className="Menu">

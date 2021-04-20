@@ -1,20 +1,21 @@
+import React, { useState } from "react";
 import "./styles/App.scss";
 import { Menu } from "./components/Menu";
 import { Front } from "./components/Front";
 import { InfoSidebar } from "./components/Sidebar/InfoSidebar";
 import { EmailSidebar } from "./components/Sidebar/EmailSidebar";
 
-function App() {
+export const App = () => {
+  const [showMobileMenu, setMobileMenu] = useState(false);
+
   return (
     <div className="App">
       <div className="contents">
         <Front />
       </div>
-      <Menu />
+      <Menu showMobileMenu={showMobileMenu} setMobileMenu={setMobileMenu} />
       <InfoSidebar />
       <EmailSidebar />
     </div>
   );
-}
-
-export default App;
+};

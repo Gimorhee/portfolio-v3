@@ -18,7 +18,7 @@
       margin: 11px;
 
       &:hover {
-        color: #61d4b3;
+        color: #fdcb6e;
         transform: scale(1.25);
       }
     }
@@ -49,7 +49,7 @@
     transition: 0.3s ease-in-out all;
 
     &:hover {
-      color: #61d4b3;
+      color: #fdcb6e;
     }
   }
 
@@ -57,5 +57,12 @@
     width: 1px;
     height: 100%;
     background: #ccd6f6;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .InfoSidebar,
+  .EmailSidebar {
+    display: none;
   }
 }
