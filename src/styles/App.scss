@@ -7,13 +7,12 @@ html {
 
 .App {
   background: #21243d;
-  //   border: 5px solid red;
   height: 100%;
-  //   height: 100vh;
   //   font-family: "Josefin Sans", sans-serif;
   font-family: "Nunito", sans-serif;
   overflow-x: hidden;
-  position: absolute;
+  position: fixed;
+  scroll-behavior: smooth;
   width: 100%;
 
   .contents {
@@ -45,4 +44,8 @@ html {
 
 #About {
   scroll-margin-top: 130px;
+}
+
+#Experience {
+  //   scroll-margin-top: 230px;
 }

@@ -43,6 +43,16 @@
         }
       }
     }
+
+    @media only screen and (max-width: 500px) {
+      span {
+        font-size: 22px;
+      }
+
+      h1 {
+        font-size: 25px;
+      }
+    }
   }
 
   .detail {
@@ -94,6 +104,10 @@
           }
         }
       }
+
+      @media only screen and (max-width: 350px) {
+        font-size: 16px;
+      }
     }
 
     .imageContainer {
@@ -109,7 +123,7 @@
         position: relative;
 
         &:after {
-          content: "-";
+          content: "";
           position: absolute;
           top: 13px;
           left: 15px;
@@ -147,8 +161,29 @@
       }
 
       .imageContainer {
+        margin-top: 20px;
         width: 100%;
       }
     }
+  }
+
+  @media only screen and (max-width: 1040px) {
+    margin-bottom: 400px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    margin-bottom: 500px;
+  }
+
+  @media only screen and (max-width: 450px) {
+    margin-bottom: 600px;
+  }
+
+  @media only screen and (max-width: 400px) {
+    margin-bottom: 700px;
+  }
+
+  @media only screen and (max-width: 350px) {
+    margin-bottom: 800px;
   }
 }

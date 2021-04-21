@@ -30,7 +30,7 @@ export const About = () => {
             </a>
             ,{" "}
             <a href="https://onikon.com/" target="_blank" rel="noreferrer">
-              a marketing/realty agency (ONIKON)
+              a marketing/realty agency (Onikon)
             </a>{" "}
             and{" "}
             <a href="https://mapster.me/" target="_blank" rel="noreferrer">
@@ -49,6 +49,7 @@ export const About = () => {
             <li>Gatsby</li>
             <li>Vue</li>
             <li>Wordpress</li>
+            <li>Node</li>
             <li>PHP</li>
           </ul>
         </div>
