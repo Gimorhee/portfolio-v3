@@ -13,22 +13,22 @@ export const Menu = ({ showMobileMenu, setMobileMenu }) => {
       </div>
       <ul className="headers">
         <li>
-          <a href="#testing">
+          <a href="#About">
             <span>01.</span>About
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#Experience">
             <span>02.</span>Experience
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#Work">
             <span>03.</span>Work
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#Contact">
             <span>04.</span>Contact
           </a>
         </li>
@@ -46,22 +46,22 @@ export const Menu = ({ showMobileMenu, setMobileMenu }) => {
 
         <ul className="mobileHeaders">
           <li>
-            <a href="#">
+            <a href="#About">
               <span>01.</span>About
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#Experience">
               <span>02.</span>Experience
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#Work">
               <span>03.</span>Work
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#Contact">
               <span>04.</span>Contact
             </a>
           </li>

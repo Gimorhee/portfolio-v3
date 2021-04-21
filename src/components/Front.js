@@ -3,7 +3,7 @@ import "../styles/Front.scss";
 
 export const Front = () => {
   return (
-    <div className="Front" id="testing">
+    <div className="Front">
       <h1 className="intro">
         Hi <span className="wave">👋</span> I'm Danny,
         <br />
@@ -27,5 +27,3 @@ export const Front = () => {
     </div>
   );
 };
-
-// Vancouver-based Web Developer who
