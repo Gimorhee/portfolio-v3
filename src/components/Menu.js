@@ -46,22 +46,22 @@ export const Menu = ({ showMobileMenu, setMobileMenu }) => {
 
         <ul className="mobileHeaders">
           <li>
-            <a href="#About">
+            <a href="#About" onClick={() => setMobileMenu(false)}>
               <span>01.</span>About
             </a>
           </li>
           <li>
-            <a href="#Experience">
+            <a href="#Experience" onClick={() => setMobileMenu(false)}>
               <span>02.</span>Experience
             </a>
           </li>
           <li>
-            <a href="#Work">
+            <a href="#Work" onClick={() => setMobileMenu(false)}>
               <span>03.</span>Work
             </a>
           </li>
           <li>
-            <a href="#Contact">
+            <a href="#Contact" onClick={() => setMobileMenu(false)}>
               <span>04.</span>Contact
             </a>
           </li>

@@ -106,7 +106,7 @@
       }
 
       @media only screen and (max-width: 350px) {
-        font-size: 16px;
+        font-size: 10px;
       }
     }
 
@@ -121,6 +121,11 @@
         max-height: 350px;
         max-width: 350px;
         position: relative;
+        mix-blend-mode: multiply;
+        filter: sepia(70%);
+        filter: sepia(70%);
+        filter: grayscale(50%);
+        filter: drop-shadow(7px 7px 14px #fdcb6e);
 
         &:after {
           content: "";
