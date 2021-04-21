@@ -8,7 +8,7 @@ export const Menu = ({ showMobileMenu, setMobileMenu }) => {
     <div className="Menu">
       <div className="logo">
         <a href="/">
-          <i class="fab fa-dailymotion"></i>
+          <i className="fab fa-dailymotion"></i>
         </a>
       </div>
       <ul className="headers">
@@ -38,11 +38,11 @@ export const Menu = ({ showMobileMenu, setMobileMenu }) => {
       </a>
 
       <button className="hamburger" onClick={() => setMobileMenu(true)}>
-        <i class="fas fa-bars"></i>
+        <i className="fas fa-bars"></i>
       </button>
 
       <div className={showMobileMenu ? "showMobileMenu mobileMenu" : "mobileMenu"}>
-        <i class="fas fa-times closeButton" onClick={() => setMobileMenu(false)}></i>
+        <i className="fas fa-times closeButton" onClick={() => setMobileMenu(false)}></i>
 
         <ul className="mobileHeaders">
           <li>

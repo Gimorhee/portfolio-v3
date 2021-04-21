@@ -4,6 +4,7 @@ import { Menu } from "./components/Menu";
 import { Front } from "./components/Front";
 import { About } from "./components/About";
 import { Experience } from "./components/Experience";
+import { Work } from "./components/Work";
 import { InfoSidebar } from "./components/Sidebar/InfoSidebar";
 import { EmailSidebar } from "./components/Sidebar/EmailSidebar";
 
@@ -16,6 +17,7 @@ export const App = () => {
         <Front />
         <About />
         <Experience />
+        <Work />
       </div>
       <Menu showMobileMenu={showMobileMenu} setMobileMenu={setMobileMenu} />
       <InfoSidebar />
