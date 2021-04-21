@@ -2,6 +2,8 @@ import React from "react";
 import "../styles/Work.scss";
 import LS from "../images/projects/LS.png";
 import booster from "../images/projects/booster.png";
+import vsCorona from "../images/projects/vsCorona.png";
+import andreaCastro from "../images/projects/andreaCastro.png";
 
 export const Work = () => {
   return (
@@ -82,6 +84,81 @@ export const Work = () => {
               className="image"
               style={{
                 backgroundImage: `url(${booster})`,
+              }}
+            >
+              <div className="imageOverlay"></div>
+            </a>
+          </div>
+
+          {/* VSCORONA */}
+          <div className="project1">
+            <a
+              href="https://vscorona.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="image"
+              style={{
+                backgroundImage: `url(${vsCorona})`,
+              }}
+            >
+              <div className="imageOverlay"></div>
+            </a>
+            <a className="detail" href="https://vscorona.netlify.app/" target="_blank" rel="noreferrer">
+              <h4>Featured Project</h4>
+              <h2>vsCorona</h2>
+              <p>
+                Due to ongoing serious world-wide pandemic situation, I found myself googling to check up current status by going through various websites. I built vsCorona for myself, friends, and
+                families to easily and conveniently check up-to-date COVID-19 information in Canada, S. Korea, and the world.
+              </p>
+              <ul>
+                <li>Covid API</li>
+                <li>React</li>
+                <li>React-Chart</li>
+                <li>Postman</li>
+              </ul>
+              <div className="links">
+                <a href="">
+                  <i className="fab fa-github"></i>
+                </a>
+                <a href="https://vscorona.netlify.app/" target="_blank" rel="noreferrer">
+                  <i className="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </a>
+          </div>
+
+          {/* ANDREA CASTRO */}
+          <div className="project2">
+            <a className="detail" href="https://andreacastro.ca/home/" target="_blank" rel="noreferrer">
+              <h4>Featured Project</h4>
+              <h2>Andrea Castro Realty</h2>
+              <p>
+                Andrea Castro Realty website is one of the Real Estate websites I built upon my client's design and functionality requirements. The client and her clients are able to efficiently
+                communicate, access and retrieve the Real Estate information through the custom built IDX plugin implemented
+              </p>
+              <ul>
+                <li>jQuery</li>
+                <li>Wordpress</li>
+                <li>Revealator</li>
+                <li>Realty API</li>
+              </ul>
+              <div className="links">
+                <a href="">
+                  <i className="fab fa-github"></i>
+                </a>
+                <a href="https://andreacastro.ca/home/" target="_blank" rel="noreferrer">
+                  <i className="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </a>
+
+            <a
+              href="https://andreacastro.ca/home/"
+              target="_blank"
+              rel="noreferrer"
+              className="image"
+              style={{
+                backgroundImage: `url(${andreaCastro})`,
               }}
             >
               <div className="imageOverlay"></div>

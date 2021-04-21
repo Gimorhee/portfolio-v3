@@ -136,6 +136,7 @@
 
           ul {
             display: flex;
+            flex-wrap: wrap;
             justify-content: flex-end;
             margin-bottom: 10px;
 
@@ -170,7 +171,7 @@
             filter: sepia(70%);
             filter: sepia(70%);
             filter: grayscale(50%);
-            filter: drop-shadow(7px 7px 14px #fdcb6e);
+            filter: drop-shadow(3px 3px 7px #fdcb6e);
 
             .imageOverlay {
               background: transparent;
@@ -250,6 +251,7 @@
 
           ul {
             display: flex;
+            flex-wrap: wrap;
             justify-content: flex-start;
             margin-bottom: 10px;
 
@@ -308,7 +310,7 @@
             filter: sepia(70%);
             filter: sepia(70%);
             filter: grayscale(50%);
-            filter: drop-shadow(7px 7px 14px #fdcb6e);
+            filter: drop-shadow(3px 3px 7px #fdcb6e);
 
             .imageOverlay {
               background: transparent;
@@ -341,6 +343,10 @@
             top: 0;
             transform: translateY(0);
           }
+        }
+
+        @media only screen and (max-width: 767px) {
+          margin-bottom: 0px;
         }
       }
     }
