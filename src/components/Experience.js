@@ -4,10 +4,6 @@ import "../styles/Experience.scss";
 export const Experience = () => {
   const [chosenCompany, setCompany] = useState("Mapster");
 
-  //   const handleCompanyChose = () => {
-  //     setCompany()
-  //   }
-
   return (
     <div className="Experience" id="Experience">
       <div className="header">
