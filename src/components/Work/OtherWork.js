@@ -415,9 +415,10 @@ export const OtherWork = () => {
             </div>
 
             <div className="stacks">
-              <span>jQuery</span>
-              <span>HTML</span>
-              <span>CSS</span>
+              <span>React</span>
+              <span>Postgres</span>
+              <span>Ruby</span>
+              <span>Rails</span>
             </div>
           </a>
         </Fragment>
