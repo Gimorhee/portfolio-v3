@@ -278,7 +278,7 @@ export const OtherWork = () => {
             </div>
 
             <div className="detail">
-              <h3>Bill Dritsas</h3>
+              <h3>Bill Dritsas Realty</h3>
               <p>One of the Real Estate websites built for the client. Custom IDX plugin is implemented</p>
             </div>
 

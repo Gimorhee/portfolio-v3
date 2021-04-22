@@ -442,6 +442,7 @@
 
           &:hover {
             transform: translateY(-10px);
+            filter: drop-shadow(3px 3px 6px #fdcb6e);
           }
 
           @media only screen and (max-width: 1140px) {

@@ -6,6 +6,7 @@ import { About } from "./components/About";
 import { Experience } from "./components/Experience";
 import { Work } from "./components/Work";
 import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
 import { InfoSidebar } from "./components/Sidebar/InfoSidebar";
 import { EmailSidebar } from "./components/Sidebar/EmailSidebar";
 
@@ -20,6 +21,7 @@ export const App = () => {
         <Experience />
         <Work />
         <Contact />
+        <Footer />
       </div>
       <Menu showMobileMenu={showMobileMenu} setMobileMenu={setMobileMenu} />
       <InfoSidebar />
