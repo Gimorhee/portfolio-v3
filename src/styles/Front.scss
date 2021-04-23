@@ -1,11 +1,11 @@
 .Front {
-  height: calc(100vh);
+  height: calc(100vh - 130px);
   color: #ccd6f6;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 200px;
+  padding-bottom: 25px;
 
   h1 {
     font-weight: 400;
