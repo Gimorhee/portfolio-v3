@@ -5,7 +5,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 25px;
+  padding-bottom: 50px;
+  animation-duration: 1000ms !important;
+  animation-delay: 1200ms !important;
 
   h1 {
     font-weight: 400;
@@ -37,6 +39,9 @@
   }
 
   @media only screen and (max-width: 767px) {
+    animation-duration: 1000ms !important;
+    animation-delay: 600ms !important;
+
     .intro {
       font-size: 32px;
     }

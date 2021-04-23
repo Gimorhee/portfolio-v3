@@ -82,6 +82,7 @@
         position: relative;
         cursor: pointer;
         margin-bottom: 100px;
+        animation-duration: 1250ms !important;
 
         .image {
           padding-bottom: 35%;
@@ -113,6 +114,7 @@
           text-align: right;
           color: #ccd6f6;
           text-decoration: none;
+          animation-fill-mode: none !important;
 
           h4 {
             color: #fdcb6e;
@@ -220,6 +222,7 @@
         position: relative;
         cursor: pointer;
         margin-bottom: 100px;
+        animation-duration: 1250ms !important;
 
         .detail {
           width: 100%;

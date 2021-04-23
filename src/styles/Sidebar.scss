@@ -4,11 +4,12 @@
   width: 45px;
   bottom: 0;
   height: 300px;
-
   display: flex;
-  //   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  animation-duration: 1000ms !important;
+  animation-delay: 1500ms !important;
 
   a {
     i {
@@ -39,6 +40,9 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+
+  animation-duration: 1000ms !important;
+  animation-delay: 1800ms !important;
 
   .email {
     writing-mode: vertical-rl;

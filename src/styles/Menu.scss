@@ -43,6 +43,22 @@
         border-bottom: 2px solid #fdcb6e;
       }
     }
+
+    .order1 {
+      animation-delay: 200ms !important;
+    }
+
+    .order2 {
+      animation-delay: 400ms !important;
+    }
+
+    .order3 {
+      animation-delay: 600ms !important;
+    }
+
+    .order4 {
+      animation-delay: 800ms !important;
+    }
   }
 
   .resume {
@@ -52,6 +68,8 @@
     border-radius: 1px;
     transition: 0.3s ease-in-out all;
 
+    animation-delay: 1000ms !important;
+
     &:hover {
       background: rgba(253, 203, 110, 0.1);
     }
@@ -59,6 +77,7 @@
 
   .hamburger {
     display: none;
+    animation-delay: 300ms !important;
   }
 
   // MOBILE MENU
