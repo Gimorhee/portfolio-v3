@@ -22,7 +22,7 @@ export const OtherWork = () => {
 
         <div className="detail">
           <h3>Urbanform</h3>
-          <p>Urbanform is the demo version of the website I created at Mapster for the client in Portland, which aggregates and calculates the spatial ramifications of building regulations. </p>
+          <p>Urbanform is the demo version of the website I participated at Mapster for the client in Portland, which aggregates and calculates the spatial ramifications of building regulations. </p>
         </div>
 
         <div className="stacks">
@@ -33,32 +33,32 @@ export const OtherWork = () => {
         </div>
       </a>
 
-      {/* PORTFOLIO2 */}
-      <a className="otherWork" href="https://gimorhee.github.io/portfolio-v2/" target="_blank" rel="noreferrer">
+      {/* WESTPORT */}
+      <a className="otherWork" href="https://westportproperties.com/" target="_blank" rel="noreferrer">
         <div className="topIcons">
           <div className="left">
             <i class="far fa-folder"></i>
           </div>
           <div className="right">
-            <a href="https://github.com/Gimorhee/portfolio-v2" target="_blank" rel="noreferrer">
-              <i className="fab fa-github"></i>
-            </a>
-            <a href="https://gimorhee.github.io/portfolio-v2/" target="_blank" rel="noreferrer">
+            <a href="https://westportproperties.com/" target="_blank" rel="noreferrer">
               <i className="fas fa-external-link-alt"></i>
             </a>
           </div>
         </div>
 
         <div className="detail">
-          <h3>Portfolio V2</h3>
-          <p>Previous version of my portfolio I developed with React</p>
+          <h3>Westport Properties Inc.</h3>
+          <p>
+            One of the Real Estate websites built for the client. The client and his clients are able to efficiently communicate, access and retrieve the Real Estate information through the custom
+            built IDX plugin implemented
+          </p>
         </div>
 
         <div className="stacks">
-          <span>React</span>
-          <span>ReactSpring</span>
-          <span>SCSS</span>
-          <span>Netlify</span>
+          <span>Wordpress</span>
+          <span>PHP</span>
+          <span>jQuery</span>
+          <span>API</span>
         </div>
       </a>
 
@@ -80,7 +80,7 @@ export const OtherWork = () => {
 
         <div className="detail">
           <h3>Palmetto Park Realty</h3>
-          <p>One of the Real Estate websites I created at Mapster for the client in US. Users are able to access the information they need more efficiently and conveniently </p>
+          <p>One of the projects I participated as a Frontend dev. at Mapster for the client in US. Users are able to access Real Estate information they need more efficiently and conveniently. </p>
         </div>
 
         <div className="stacks">
@@ -183,32 +183,32 @@ export const OtherWork = () => {
 
       {showMore === true && (
         <Fragment>
-          {/* WESTPORT */}
-          <a className="otherWork" href="https://westportproperties.com/" target="_blank" rel="noreferrer">
+          {/* PORTFOLIO2 */}
+          <a className="otherWork" href="https://gimorhee.github.io/portfolio-v2/" target="_blank" rel="noreferrer">
             <div className="topIcons">
               <div className="left">
                 <i class="far fa-folder"></i>
               </div>
               <div className="right">
-                <a href="https://westportproperties.com/" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Gimorhee/portfolio-v2" target="_blank" rel="noreferrer">
+                  <i className="fab fa-github"></i>
+                </a>
+                <a href="https://gimorhee.github.io/portfolio-v2/" target="_blank" rel="noreferrer">
                   <i className="fas fa-external-link-alt"></i>
                 </a>
               </div>
             </div>
 
             <div className="detail">
-              <h3>Westport Properties Inc.</h3>
-              <p>
-                One of the Real Estate websites built for the client. The client and his clients are able to efficiently communicate, access and retrieve the Real Estate information through the custom
-                built IDX plugin implemented
-              </p>
+              <h3>Portfolio V2</h3>
+              <p>Previous version of my portfolio I developed with React</p>
             </div>
 
             <div className="stacks">
-              <span>Wordpress</span>
-              <span>PHP</span>
-              <span>jQuery</span>
-              <span>API</span>
+              <span>React</span>
+              <span>ReactSpring</span>
+              <span>SCSS</span>
+              <span>Netlify</span>
             </div>
           </a>
 

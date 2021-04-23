@@ -1,14 +1,15 @@
 .About {
-  height: calc(100vh - 130px);
   display: flex;
   width: 100%;
   flex-wrap: wrap;
+  margin-bottom: 110px;
 
   .header {
     width: 100%;
     display: flex;
     color: white;
     align-items: flex-end;
+    max-height: 50px;
 
     span {
       color: #fdcb6e;
@@ -172,23 +173,7 @@
     }
   }
 
-  @media only screen and (max-width: 1040px) {
-    margin-bottom: 400px;
-  }
-
-  @media only screen and (max-width: 600px) {
-    margin-bottom: 500px;
-  }
-
-  @media only screen and (max-width: 450px) {
-    margin-bottom: 600px;
-  }
-
-  @media only screen and (max-width: 400px) {
-    margin-bottom: 700px;
-  }
-
-  @media only screen and (max-width: 350px) {
-    margin-bottom: 375px;
+  @media only screen and (max-width: 550px) {
+    margin-bottom: 75px;
   }
 }

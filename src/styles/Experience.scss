@@ -1,9 +1,8 @@
 .Experience {
-  height: calc(100vh - 130px);
   width: 100%;
-
   max-width: 1000px;
   margin: auto;
+  margin-bottom: 110px;
 
   .header {
     width: 100%;
@@ -96,9 +95,15 @@
         border-left: 2px solid #fdcb6e;
       }
 
+      @media only screen and (max-width: 500px) {
+        li {
+          font-size: 15.5px;
+        }
+      }
+
       @media only screen and (max-width: 350px) {
         li {
-          font-size: 15px;
+          font-size: 14.5px;
         }
       }
     }
@@ -114,6 +119,11 @@
 
         span {
           color: #fdcb6e;
+          font-size: 20px;
+
+          @media only screen and (max-width: 500px) {
+            display: block;
+          }
         }
       }
 
@@ -186,27 +196,7 @@
     }
   }
 
-  @media only screen and (max-width: 950px) {
-    margin-bottom: 50px;
-  }
-
-  @media only screen and (max-width: 850px) {
-    margin-bottom: 100px;
-  }
-
-  @media only screen and (max-width: 600px) {
-    margin-bottom: 150px;
-  }
-
-  @media only screen and (max-width: 450px) {
-    margin-bottom: 250px;
-  }
-
-  @media only screen and (max-width: 400px) {
-    margin-bottom: 275px;
-  }
-
-  @media only screen and (max-width: 350px) {
-    margin-bottom: 325px;
+  @media only screen and (max-width: 550px) {
+    margin-bottom: 75px;
   }
 }
