@@ -83,6 +83,7 @@
         cursor: pointer;
         margin-bottom: 100px;
         animation-duration: 1250ms !important;
+        animation-delay: 200ms !important;
 
         .image {
           padding-bottom: 35%;
@@ -223,6 +224,7 @@
         cursor: pointer;
         margin-bottom: 100px;
         animation-duration: 1250ms !important;
+        animation-delay: 200ms !important;
 
         .detail {
           width: 100%;
@@ -444,7 +446,7 @@
           }
 
           &:hover {
-            transform: translateY(-10px);
+            transform: translateY(-10px) !important;
             filter: drop-shadow(3px 3px 6px #fdcb6e);
           }
 
