@@ -4,12 +4,49 @@ import booster from "../../images/projects/booster.png";
 import vsCorona from "../../images/projects/vsCorona.png";
 import andreaCastro from "../../images/projects/andreaCastro.png";
 import jess from "../../images/projects/jess.png";
+import project44 from "../../images/projects/project44.png";
 
 import Fade from "react-reveal/Fade";
 
 export const FeaturedWork = () => {
   return (
     <Fragment>
+      {/* PROJECT44 */}
+      <Fade left>
+        <div className="project2">
+          <a className="detail" href="https://map.project44.ca/" target="_blank" rel="noreferrer">
+            <h4>Featured Project</h4>
+            <h2>Project '44</h2>
+            <p>Project '44 is a web showcase of the Battle of Normandy that I participated in creating for the Canadian Research and Mapping Association. Currently in beta.</p>
+            <ul>
+              <li>React</li>
+              <li>Redux</li>
+              <li>MapboxGl</li>
+            </ul>
+            <div className="links">
+              {/* <a href="">
+                  <i className="fab fa-github"></i>
+                </a> */}
+              <a href="https://map.project44.ca/" target="_blank" rel="noreferrer">
+                <i className="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </a>
+
+          <a
+            href="https://map.project44.ca/"
+            target="_blank"
+            rel="noreferrer"
+            className="image"
+            style={{
+              backgroundImage: `url(${project44})`,
+            }}
+          >
+            <div className="imageOverlay"></div>
+          </a>
+        </div>
+      </Fade>
+
       {/* LEARN DITIDAHT */}
       <Fade right>
         <div className="project1">
