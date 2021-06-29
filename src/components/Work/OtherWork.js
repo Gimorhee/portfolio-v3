@@ -102,36 +102,30 @@ export const OtherWork = () => {
         </a>
       </Zoom>
 
-      {/* WATCH ME */}
+      {/* RAIN MARKETING */}
       <Zoom>
-        <a className="otherWork" href="https://watchm3.netlify.app/" target="_blank" rel="noreferrer">
+        <a className="otherWork" href="https://rainmarketing.ca/" target="_blank" rel="noreferrer">
           <div className="topIcons">
             <div className="left">
               <i class="far fa-folder"></i>
             </div>
             <div className="right">
-              <a href="https://github.com/Gimorhee/WatchMe" target="_blank" rel="noreferrer">
-                <i className="fab fa-github"></i>
-              </a>
-              <a href="https://watchm3.netlify.app/" target="_blank" rel="noreferrer">
+              <a href="https://rainmarketing.ca/" target="_blank" rel="noreferrer">
                 <i className="fas fa-external-link-alt"></i>
               </a>
             </div>
           </div>
 
           <div className="detail">
-            <h3>Watch Me</h3>
-            <p>
-              Watch Me is an application that specializes in watch trading, repairing and customizing. Watch Me offers a wide assortment of Classic and Luxury watch models and services to suffice all
-              customers needs{" "}
-            </p>
+            <h3>Rain Marketing</h3>
+            <p>Website I built for the client to assist them providing valuable sales and marketing strategies/services to their customers.</p>
           </div>
 
           <div className="stacks">
-            <span>React</span>
-            <span>ReactSpring</span>
-            <span>SCSS</span>
-            <span>Netlify</span>
+            <span>Wordpress</span>
+            <span>PHP</span>
+            <span>jQuery</span>
+            <span>API</span>
           </div>
         </a>
       </Zoom>
@@ -231,34 +225,39 @@ export const OtherWork = () => {
             </a>
           </Zoom>
 
-          {/* RAIN MARKETING */}
+          {/* WATCH ME */}
           <Zoom>
-            <a className="otherWork" href="https://rainmarketing.ca/" target="_blank" rel="noreferrer">
+            <a className="otherWork" href="https://watchm3.netlify.app/" target="_blank" rel="noreferrer">
               <div className="topIcons">
                 <div className="left">
                   <i class="far fa-folder"></i>
                 </div>
                 <div className="right">
-                  <a href="https://rainmarketing.ca/" target="_blank" rel="noreferrer">
+                  <a href="https://github.com/Gimorhee/WatchMe" target="_blank" rel="noreferrer">
+                    <i className="fab fa-github"></i>
+                  </a>
+                  <a href="https://watchm3.netlify.app/" target="_blank" rel="noreferrer">
                     <i className="fas fa-external-link-alt"></i>
                   </a>
                 </div>
               </div>
 
               <div className="detail">
-                <h3>Rain Marketing</h3>
-                <p>Website I built for the client to assist them providing valuable sales and marketing strategies/services to their customers.</p>
+                <h3>Watch Me</h3>
+                <p>
+                  Watch Me is an application that specializes in watch trading, repairing and customizing. Watch Me offers a wide assortment of Classic and Luxury watch models and services to suffice
+                  all customers needs{" "}
+                </p>
               </div>
 
               <div className="stacks">
-                <span>Wordpress</span>
-                <span>PHP</span>
-                <span>jQuery</span>
-                <span>API</span>
+                <span>React</span>
+                <span>ReactSpring</span>
+                <span>SCSS</span>
+                <span>Netlify</span>
               </div>
             </a>
           </Zoom>
-
           {/* MIKE MALFORI */}
           <Zoom>
             <a className="otherWork" href="https://www.mikemarfori.com/grandview-collection-at-grandview-heights/" target="_blank" rel="noreferrer">
@@ -376,28 +375,30 @@ export const OtherWork = () => {
 
           {/* LET's CHAT */}
           <Zoom>
-            <a className="otherWork" href="https://react-lets-chat.netlify.app/" target="_blank" rel="noreferrer">
+            <a className="otherWork" href="https://www.earthdefenderstoolkit.com/" target="_blank" rel="noreferrer">
               <div className="topIcons">
                 <div className="left">
                   <i class="far fa-folder"></i>
                 </div>
                 <div className="right">
-                  <a href="https://react-lets-chat.netlify.app/" target="_blank" rel="noreferrer">
+                  <a href="https://www.earthdefenderstoolkit.com/" target="_blank" rel="noreferrer">
                     <i className="fas fa-external-link-alt"></i>
                   </a>
                 </div>
               </div>
 
               <div className="detail">
-                <h3>LetsChat</h3>
-                <p>A real-time chat application built with React, Node, Socket.io where users may create rooms and chat with others online</p>
+                <h3>Earth Defender Toolkit</h3>
+                <p>
+                  The mission of the Earth Defenders Toolkit is to provide and promote approaches to using technology in a way that supports local autonomy and ownership over tools and data, and
+                  reduces reliance on outside support.
+                </p>
               </div>
 
               <div className="stacks">
-                <span>React</span>
-                <span>SocketIO</span>
-                <span>Node</span>
-                <span>Heroku</span>
+                <span>WordPress</span>
+                <span>PHP</span>
+                <span>jQuery</span>
               </div>
             </a>
           </Zoom>
@@ -429,30 +430,30 @@ export const OtherWork = () => {
             </a>
           </Zoom>
 
-          {/* CARDS AGASINT THE INTERNET */}
+          {/* LET's CHAT */}
           <Zoom>
-            <a className="otherWork" href="https://github.com/Gimorhee/Cards-Against-the-Internet" target="_blank" rel="noreferrer">
+            <a className="otherWork" href="https://react-lets-chat.netlify.app/" target="_blank" rel="noreferrer">
               <div className="topIcons">
                 <div className="left">
                   <i class="far fa-folder"></i>
                 </div>
                 <div className="right">
-                  <a href="https://github.com/Gimorhee/Cards-Against-the-Internet" target="_blank" rel="noreferrer">
-                    <i className="fab fa-github"></i>
+                  <a href="https://react-lets-chat.netlify.app/" target="_blank" rel="noreferrer">
+                    <i className="fas fa-external-link-alt"></i>
                   </a>
                 </div>
               </div>
 
               <div className="detail">
-                <h3>Cards against the Internet</h3>
-                <p>A clone web app of a card game, Cards against Humanity built as a final project</p>
+                <h3>LetsChat</h3>
+                <p>A real-time chat application built with React, Node, Socket.io where users may create rooms and chat with others online</p>
               </div>
 
               <div className="stacks">
                 <span>React</span>
-                <span>Postgres</span>
-                <span>Ruby</span>
-                <span>Rails</span>
+                <span>SocketIO</span>
+                <span>Node</span>
+                <span>Heroku</span>
               </div>
             </a>
           </Zoom>
