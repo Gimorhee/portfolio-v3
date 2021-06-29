@@ -57,7 +57,7 @@ export const About = () => {
           </div>
           <div className="imageContainer">
             <div className="image">
-              <img src={profileImage} alt="" />
+              <img src={profileImage} alt="profile-image" />
             </div>
           </div>
         </div>
