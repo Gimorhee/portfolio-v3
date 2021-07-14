@@ -35,7 +35,7 @@ export const Experience = () => {
             {chosenCompany === "Mapster" && (
               <Fragment>
                 <h2>
-                  Jr. Web Developer <span>@ Mapster Technology Inc.</span>
+                  Frontend Developer <span>@ Mapster Technology Inc.</span>
                 </h2>
                 <h4>Oct 2020 - Current</h4>
                 <ul>
@@ -50,7 +50,7 @@ export const Experience = () => {
             {chosenCompany === "Onikon" && (
               <Fragment>
                 <h2>
-                  Jr. Frontend Developer <span>@ Onikon Creative Inc.</span>
+                  Jr. Web Developer <span>@ Onikon Creative Inc.</span>
                 </h2>
                 <h4>Jan 2020 - Oct 2020</h4>
                 <ul>
