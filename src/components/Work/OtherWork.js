@@ -40,40 +40,9 @@ export const OtherWork = () => {
         </a>
       </Zoom>
 
-      {/* WESTPORT */}
-      <Zoom>
-        <a className="otherWork" href="https://westportproperties.com/" target="_blank" rel="noreferrer">
-          <div className="topIcons">
-            <div className="left">
-              <i class="far fa-folder"></i>
-            </div>
-            <div className="right">
-              <a href="https://westportproperties.com/" target="_blank" rel="noreferrer">
-                <i className="fas fa-external-link-alt"></i>
-              </a>
-            </div>
-          </div>
-
-          <div className="detail">
-            <h3>Westport Properties Inc.</h3>
-            <p>
-              One of the Real Estate websites built for the client. The client and his clients are able to efficiently communicate, access and retrieve the Real Estate information through the custom
-              built IDX plugin implemented
-            </p>
-          </div>
-
-          <div className="stacks">
-            <span>Wordpress</span>
-            <span>PHP</span>
-            <span>jQuery</span>
-            <span>API</span>
-          </div>
-        </a>
-      </Zoom>
-
       {/* PALMETTO */}
       <Zoom>
-        <a className="otherWork" href="https://www.palmettopark.com/greenville" target="_blank" rel="noreferrer">
+        <a className="otherWork" href="https://www.palmettopark.com" target="_blank" rel="noreferrer">
           <div className="topIcons">
             <div className="left">
               <i class="far fa-folder"></i>
@@ -82,7 +51,7 @@ export const OtherWork = () => {
               <a href="https://github.com/mapstertech/palmetto-park" target="_blank" rel="noreferrer">
                 <i className="fab fa-github"></i>
               </a>
-              <a href="https://www.palmettopark.com/greenville" target="_blank" rel="noreferrer">
+              <a href="https://www.palmettopark.com" target="_blank" rel="noreferrer">
                 <i className="fas fa-external-link-alt"></i>
               </a>
             </div>
@@ -188,6 +157,37 @@ export const OtherWork = () => {
             <span>Redux</span>
             <span>Node/Mongo</span>
             <span>SendGrid</span>
+          </div>
+        </a>
+      </Zoom>
+
+      {/* ANDREA CASTRO */}
+      <Zoom>
+        <a className="otherWork" href="https://andreacastro.ca" target="_blank" rel="noreferrer">
+          <div className="topIcons">
+            <div className="left">
+              <i class="far fa-folder"></i>
+            </div>
+            <div className="right">
+              <a href="https://andreacastro.ca" target="_blank" rel="noreferrer">
+                <i className="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </div>
+
+          <div className="detail">
+            <h3>Andrea Castro Realty</h3>
+            <p>
+              One of the Real Estate websites built for the client. The client and his clients are able to efficiently communicate, access and retrieve the Real Estate information through the custom
+              built IDX plugin implemented
+            </p>
+          </div>
+
+          <div className="stacks">
+            <span>Wordpress</span>
+            <span>PHP</span>
+            <span>jQuery</span>
+            <span>API</span>
           </div>
         </a>
       </Zoom>

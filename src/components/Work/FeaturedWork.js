@@ -3,6 +3,7 @@ import LS from "../../images/projects/LS.png";
 import booster from "../../images/projects/booster.png";
 import vsCorona from "../../images/projects/vsCorona.png";
 import andreaCastro from "../../images/projects/andreaCastro.png";
+import westport from "../../images/projects/westport.png";
 import jess from "../../images/projects/jess.png";
 import project44 from "../../images/projects/project44.png";
 
@@ -90,11 +91,11 @@ export const FeaturedWork = () => {
       {/* ANDREA CASTRO */}
       <Fade left>
         <div className="project2">
-          <a className="detail" href="https://andreacastro.ca/home/" target="_blank" rel="noreferrer">
+          <a className="detail" href="https://westportproperties.com/" target="_blank" rel="noreferrer">
             <h4>Featured Project</h4>
-            <h2>Andrea Castro Realty</h2>
+            <h2>Westport Properties Inc.</h2>
             <p>
-              Andrea Castro Realty website is one of the Real Estate websites I built upon my client's design and functionality requirements. The client and her clients are able to efficiently
+              Westport Properties website is one of the Real Estate websites I built upon my client's design and functionality requirements. The client and her clients are able to efficiently
               communicate, access and retrieve the Real Estate information through the custom built IDX plugin implemented
             </p>
             <ul>
@@ -107,19 +108,19 @@ export const FeaturedWork = () => {
               {/* <a href="">
                   <i className="fab fa-github"></i>
                 </a> */}
-              <a href="https://andreacastro.ca/home/" target="_blank" rel="noreferrer">
+              <a href="https://westportproperties.com/" target="_blank" rel="noreferrer">
                 <i className="fas fa-external-link-alt"></i>
               </a>
             </div>
           </a>
 
           <a
-            href="https://andreacastro.ca/home/"
+            href="https://westportproperties.com/"
             target="_blank"
             rel="noreferrer"
             className="image"
             style={{
-              backgroundImage: `url(${andreaCastro})`,
+              backgroundImage: `url(${westport})`,
             }}
           >
             <div className="imageOverlay"></div>
