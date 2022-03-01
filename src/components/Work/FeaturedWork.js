@@ -173,7 +173,7 @@ export const FeaturedWork = () => {
         <div className="project2">
           <a className="detail" href="https://andreacastro.ca/" target="_blank" rel="noreferrer">
             <h4>Featured Project</h4>
-            <h2>ANDREA CASTRO</h2>
+            <h2>Andrea Castro</h2>
             <p>
               Andrea Castro Realty is one of the Real Estate websites I built upon my client's design and functionality requirements. The client and her clients are able to efficiently communicate,
               access and retrieve the Real Estate information through the custom built IDX plugin implemented
