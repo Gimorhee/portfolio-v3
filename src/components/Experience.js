@@ -37,7 +37,7 @@ export const Experience = () => {
                 <h2>
                   Jr. Frontend Developer <span>@ Mapster Technology Inc.</span>
                 </h2>
-                <h4>Oct 2020 - June 2021</h4>
+                <h4>Oct 2020 - Sept 2021</h4>
                 <ul>
                   <li>Developed performant, responsive, maintainable code for a diverse array of client and internal projects</li>
                   <li>Worked with a variety of different platforms, frameworks, languages and CMSs, such as, React/Redux, Gatsby, Wordpress, Next, React Native, Moodle and Unity</li>
