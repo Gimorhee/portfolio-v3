@@ -6,6 +6,7 @@ import andreaCastro from "../../images/projects/andreaCastro.png";
 import westport from "../../images/projects/westport.png";
 import jess from "../../images/projects/jess.png";
 import project44 from "../../images/projects/project44.png";
+import tindog from "../../images/projects/tindog.png";
 
 import Fade from "react-reveal/Fade";
 
@@ -88,7 +89,7 @@ export const FeaturedWork = () => {
         </div>
       </Fade>
 
-      {/* ANDREA CASTRO */}
+      {/* WESTPORT PROPERTIES */}
       <Fade left>
         <div className="project2">
           <a className="detail" href="https://westportproperties.com/" target="_blank" rel="noreferrer">
@@ -160,6 +161,85 @@ export const FeaturedWork = () => {
                   <i className="fab fa-github"></i>
                 </a> */}
               <a href="https://jessrestaurant.ca/" target="_blank" rel="noreferrer">
+                <i className="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </a>
+        </div>
+      </Fade>
+
+      {/* ANDREA CASTRO */}
+      <Fade left>
+        <div className="project2">
+          <a className="detail" href="https://andreacastro.ca/" target="_blank" rel="noreferrer">
+            <h4>Featured Project</h4>
+            <h2>ANDREA CASTRO</h2>
+            <p>
+              Andrea Castro Realty is one of the Real Estate websites I built upon my client's design and functionality requirements. The client and her clients are able to efficiently communicate,
+              access and retrieve the Real Estate information through the custom built IDX plugin implemented
+            </p>
+            <ul>
+              <li>jQuery</li>
+              <li>Wordpress</li>
+              <li>PHP</li>
+              <li>Realty API</li>
+            </ul>
+            <div className="links">
+              {/* <a href="">
+                  <i className="fab fa-github"></i>
+                </a> */}
+              <a href="https://andreacastro.ca/" target="_blank" rel="noreferrer">
+                <i className="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </a>
+
+          <a
+            href="https://andreacastro.ca/"
+            target="_blank"
+            rel="noreferrer"
+            className="image"
+            style={{
+              backgroundImage: `url(${andreaCastro})`,
+            }}
+          >
+            <div className="imageOverlay"></div>
+          </a>
+        </div>
+      </Fade>
+
+      {/* TINDOG */}
+      <Fade right>
+        <div className="project1">
+          <a
+            href="https://we-are-tindog.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="image"
+            style={{
+              backgroundImage: `url(${tindog})`,
+            }}
+          >
+            <div className="imageOverlay"></div>
+          </a>
+          <a className="detail" href="https://we-are-tindog.herokuapp.com/" target="_blank" rel="noreferrer">
+            <h4>Featured Project</h4>
+            <h2>Tindog</h2>
+            <p>
+              Tindog is an online application helping animal lovers find like-minded friends for themselves and for their lovely pets. Try it and find your dogs walk buddies or their true love. Woof!
+            </p>
+            <ul>
+              <li>React</li>
+              <li>Redux</li>
+              <li>MapboxGL</li>
+              <li>API</li>
+              <li>Express</li>
+            </ul>
+            <div className="links">
+              <a href="https://github.com/Gimorhee/TD" target="_blank" rel="noreferrer">
+                <i className="fab fa-github"></i>
+              </a>
+              <a href="https://we-are-tindog.herokuapp.com/" target="_blank" rel="noreferrer">
                 <i className="fas fa-external-link-alt"></i>
               </a>
             </div>
