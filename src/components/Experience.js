@@ -35,7 +35,7 @@ export const Experience = () => {
             {chosenCompany === "Mapster" && (
               <Fragment>
                 <h2>
-                  Jr. Frontend Developer <span>@ Mapster Technology Inc.</span>
+                  Frontend Developer <span>@ Mapster Technology Inc.</span>
                 </h2>
                 <h4>Oct 2020 - Sept 2021</h4>
                 <ul>
